@@ -13,5 +13,28 @@
 </head>
 <body>
     <img src="livemap.png" alt="Description">
+        <!-- Dropdown menu -->
+    <select id="pageSelect" onchange="navigate()">
+        <option value="">Select a page</option>
+        <option value="dht.html">Page 1</option>
+        <option value="dht.html">Page 2</option>
+        <option value="dht.html">Page 3</option>
+        <option value="dht.html">Page 4</option>
+        <option value="dht.html">Page 5</option>
+        <option value="dht.html">Page 6</option>
+        <option value="dht.html">Page 7</option>
+        <option value="dht.html">Page 8</option>
+    </select>
+
+    <!-- JavaScript to handle page navigation -->
+    <script>
+        function navigate() {
+            var select = document.getElementById("pageSelect");
+            var selectedPage = select.options[select.selectedIndex].value;
+            if (selectedPage) {
+                window.location.href = selectedPage;
+            }
+        }
+    </script>
 </body>
 </html>
