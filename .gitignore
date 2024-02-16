@@ -1,0 +1,7 @@
+# Ignore everything in the root directory
+/*
+# Except for:
+!.gitignore
+# And the folder 'public'
+!/public/
+!/public/*
