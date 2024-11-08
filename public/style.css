@@ -11,6 +11,7 @@ body {
 img {
     max-width: 100%; /* Make sure the image doesn't overflow the screen */
     min-height: 3500;
+    object-fit: cover;
     height: auto; /* Keep the aspect ratio */
 }
 
