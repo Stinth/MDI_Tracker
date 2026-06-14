@@ -5,3 +5,10 @@
 # And the folder 'public'
 !/public/
 !/public/*
+# Team logos used by generated images
+!/teams/
+/teams/*
+!/teams/mandatory.png
+!/teams/dignitas.png
+!/teams/big_lucky.png
+!/teams/liquid.png
